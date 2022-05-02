@@ -1,7 +1,9 @@
 .App {
   text-align: left;
 }
-
+.author {
+  padding-top: 10px;
+}
 .author>input {
   width: 324px;
   text-transform: capitalize;
@@ -30,4 +32,8 @@ button {
 
 .message p {
   font-style: italic;
+}
+.container {
+  display: flex;
+  justify-content: left
 }
