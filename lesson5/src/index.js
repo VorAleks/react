@@ -3,6 +3,8 @@ import ReactDOM from 'react-dom/client';
 import App from './App';
 import { Provider } from 'react-redux';
 import { createStore } from 'redux';
+import { composeWithDevTools } from 'redux-devtools-extension';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
@@ -30,7 +32,7 @@ const reducer = (state = initialState, action) => {
   }
 }
 
-const store = createStore(reducer)
+const store = createStore (reducer, composeWithDevTools);
 
 root.render(
   <Provider store={store}>
