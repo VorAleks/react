@@ -1,0 +1,39 @@
+.App {
+  text-align: left;
+}
+.author {
+  padding-top: 10px;
+}
+.author>input {
+  width: 324px;
+  text-transform: capitalize;
+}
+
+.text {
+  padding: 10px 0;
+}
+
+button {
+  margin-bottom: 10px;
+}
+
+.message {
+  width: 500px;
+  margin: 5px 0;
+  border: 1px solid #000;
+  ;
+}
+
+.message h4,
+.message p {
+  margin: 0;
+
+}
+
+.message p {
+  font-style: italic;
+}
+.container {
+  display: flex;
+  justify-content: left
+}
